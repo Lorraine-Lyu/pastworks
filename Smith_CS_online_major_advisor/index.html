@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Major Advisor</title>
+  <meta name="description" content="The home page to direct users onto different pages according to their identity">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" href="style_index.css">
+  <script src="script_index.js" defer></script>
+</head>
+<body>
+    <div class = "wrapper" id = "wrapper">
+    <h2 id = "header">Welcome to our online major advisor homepage!</h2>
+        <p id = "hint">Click on the button to open the dropdown menu.</p>
+
+        <div class="dropdown" id = "DropDown">
+        <button onclick="dropDown()" class="dropbtn">I'm a ... (click me)</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a onclick="studentOrAdvisorLogin('student')">Student</a>
+            <a onclick="studentOrAdvisorLogin('advisor')">Advisor</a>
+      </div>
+      </div>
+      </div>
+</body>
+</html>

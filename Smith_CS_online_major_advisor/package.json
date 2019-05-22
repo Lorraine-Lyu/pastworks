@@ -1,0 +1,28 @@
+{
+  "name": "csc220onlineadvisor",
+  "version": "1.0.0",
+  "description": "Online cs major advisor",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lorraine-Lyu/CSC220.git"
+  },
+  "author": "Lorraine, Rebecca, Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lorraine-Lyu/CSC220/issues"
+  },
+  "homepage": "https://github.com/Lorraine-Lyu/CSC220#readme",
+  "dependencies": {
+    "jsrender": "^1.0.0",
+    "mime": "^2.4.0",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.15",
+    "promise": "^8.0.2",
+    "swig": "^1.4.2"
+  }
+}

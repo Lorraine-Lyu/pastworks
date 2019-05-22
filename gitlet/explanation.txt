@@ -1,0 +1,3 @@
+The project is very hard and lengthy. It took us more than expected time to implement and debug. We are sorry.
+
+Try to add more lines to pass the gragescope: All members of our team are taking other courses along cs61b so we had quite a stressful week for this project. Sorry for our delay again!

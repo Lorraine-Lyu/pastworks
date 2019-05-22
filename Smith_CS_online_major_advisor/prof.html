@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Major Advisor</title>
+  <meta name="description" content="The individual page for advisors">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" href="style_advisor.css">
+  <script src="script_advisor.js" defer></script>
+</head>
+<body>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Filter Advisees by</a>
+      <div class="dropdown-content">
+      <a onclick = "filter('c')">Class Year</a>
+      <a onclick = "filter('f')">On Fire</a>
+      <a onclick = "filter('h')">On hold</a>
+    </div>
+  </li>
+  </ul>
+<p id="advisorName">{{name}}</p>
+<div id="allStudents">
+  {% for student in students %}
+    <button class="student" onclick="getStudentPage(this.textContent)">
+      {{ student.name }}
+    </button>
+  {% endfor %}
+</div>
+<p id="result"></p>
+</body>
+</html>
